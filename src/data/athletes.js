@@ -26,7 +26,7 @@ const athletes = [
       { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'Pan American Games', 'category': '-63kg' },
       { 'year': '2007', 'type': 'G', 'city': 'Rio de Janeiro', 'event': 'World Championships', 'category': '-63kg' },
     ],
-  },
+  }
 ];
 
 export default athletes;
