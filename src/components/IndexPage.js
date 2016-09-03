@@ -9,6 +9,8 @@ export default class IndexPage extends React.Component {
       <div className="home">
         <div className="athletes-selector">
           {athletes.map(athleteData => <AthletePreview key={athleteData.id} {...athleteData} />)}
-    )
+        </div>
+      </div>
+    );
   }
 }
